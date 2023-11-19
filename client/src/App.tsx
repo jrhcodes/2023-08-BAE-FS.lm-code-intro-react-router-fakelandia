@@ -1,18 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import AppFooter from './components/AppFooter';
-import AppBody from './components/AppBody';
-import AppHeader from './components/AppHeader';
+
+import { BrowserRouter } from 'react-router-dom';
+// import { ErrorBoundary } from 'react-error-boundary';
+import Router from './components/Router';
 
 function App() {
-  return (
-    <div className="App">
-      <AppHeader />
-      <AppBody />
-      <AppFooter />
-    </div>
-  );
+  return <>
+    {/* <ErrorBoundary> */}
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
+    {/* </ErrorBoundary> */}
+  </>
+
+    ;
 }
 
 export default App;

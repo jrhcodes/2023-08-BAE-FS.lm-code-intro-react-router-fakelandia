@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+.AppHeader {
+    display: flex;
+    flex-direction: row;
+    vertical-align: center;
+}
+
+.AppHeader__Title {
+    font-family: "Tangerine";
+    font-size: 32px;
+}
+
+.AppHeader nav {
+    vertical-align: center;
+    align-content: center;
+
+}
+
+.AppHeader ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+}
+
+.AppHeader li {
+    margin: 20px;
+    list-style-type: none;
+
+}
