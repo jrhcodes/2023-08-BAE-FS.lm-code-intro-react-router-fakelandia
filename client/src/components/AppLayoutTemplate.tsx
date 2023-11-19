@@ -1,12 +1,12 @@
 import React from 'react';
-import AppFooter from './AppFooter';
+import AppFooter from './AppFooter/AppFooter';
 import AppHeader from './AppHeader/AppHeader';
 import { Outlet } from 'react-router-dom';
 
 const AppLayoutTemplate: React.FC = () => {
     return <>
         <AppHeader />
-        <Outlet />
+        <main><Outlet /></main>
         <AppFooter />
     </>;
 }

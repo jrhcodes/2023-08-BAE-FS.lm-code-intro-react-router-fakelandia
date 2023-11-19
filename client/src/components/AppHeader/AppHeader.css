@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     vertical-align: center;
+    background-color: rgb(149, 236, 244);
 }
 
 .AppHeader__Title {
@@ -27,4 +28,8 @@
     margin: 20px;
     list-style-type: none;
 
+}
+
+.AppHeader a {
+    text-decoration: none;
 }
